@@ -1,0 +1,109 @@
+html, body, * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+
+body {
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #292727;
+    color: #c0c5c9;
+  
+}
+
+button {
+    padding: 0.8rem 1.5rem;
+    border-radius: 16px;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+navbar {
+    height: 4rem;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding-inline: 1rem;
+}
+
+main {
+    min-height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+main > span {
+    padding-inline: 1rem;
+}
+
+.img-container {
+    height: 25rem;
+    width: 100%;
+    padding-inline: 0rem;
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+
+.btn-join {
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.8rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: #a688fa;
+    color: black;
+    margin-bottom: 2rem;
+}
+
+.btn-join:hover {
+    background-color: #a688fad0;
+}
+
+.btn-join:active {
+    background-color: #a688faa5;
+}
+
+hr {
+    width: 100%;
+    height: 0.5px;
+    background-color: #c0c5c9;
+    border: none;
+}
+
+.activities-container {
+    margin-top: 2rem;
+}
+
+.activities {
+    text-align: start;
+    width: 21rem;
+    margin-top: 2rem;
+    margin-bottom: 3.3rem;
+}
+
+.activities > img {
+    width: 21rem;
+    height: 21rem;
+    margin-bottom: 1rem;
+}
+.activities > h3 {
+    font-weight: 650;
+}
+
+.organization-container {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
