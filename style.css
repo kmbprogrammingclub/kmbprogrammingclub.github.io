@@ -40,7 +40,6 @@ main {
     align-items: center;
     gap: 0.5rem;
     text-align: center;
-    padding-bottom: 4rem;
 }
 
 main > span {
@@ -82,7 +81,9 @@ hr {
 }
 
 .activities-container {
+    background-color: #313030;
     margin-top: 2rem;
+    padding: 3rem;
 }
 
 .activities {
@@ -101,9 +102,97 @@ hr {
     font-weight: 650;
 }
 
+.projects-container {
+   padding: 1.5rem 0;
+}
+
+.projects-container > h2 {
+    margin-bottom: 0.8rem;
+}
+
+.projects-container > ul > li {
+    margin-bottom: 0.5rem;
+}
+
 .organization-container {
-    margin-top: 2rem;
+    background-color: #313030;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+/* this is for tablet, ipad and other big smartphones screen */
+@media (min-width:600px) {
+    body {
+        font-size: 2rem;
+    }
+    navbar {
+        height: 8rem;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        padding-inline: 5rem;
+    }
+
+    .img-container {
+        height: 60rem;
+        width: 100%;
+        padding-inline: 0rem;
+        margin-bottom: 2rem;
+        overflow: hidden;
+    }
+
+    .join-span {
+        width: 80%;
+    }
+
+    .btn-join {
+        margin-top: 3rem;
+        padding: 1.4rem 3rem;
+        border-radius: 20rem;
+        font-weight: bold;
+        font-size: 2.5rem;
+        background-color: #a688fa;
+        color: black;
+        margin-bottom: 3rem;
+    }
+
+    .activities-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 3.5rem;
+    }
+    .activities {
+        margin: 4rem 0;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        gap: 4rem;
+    }
+
+    .activities > img {
+        width: 40rem;
+        height: 30rem;
+        margin-bottom: 1rem;
+    }
+    .activities > div {
+        width: 50rem;
+    }
+
+    .projects-container {
+        padding: 3rem 0;
+     }
+     
+     .projects-container > h2 {
+         margin-bottom: 2rem;
+     }
+     
+     .projects-container > ul > li {
+         margin-bottom: 1.3rem;
+     }
 }
