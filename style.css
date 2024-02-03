@@ -33,6 +33,10 @@ navbar {
     padding-inline: 1rem;
 }
 
+.toggle-Button {
+    overflow: hidden;
+}
+
 main {
     min-height: 30rem;
     display: flex;
@@ -126,22 +130,22 @@ hr {
 
 /* this is for tablet, ipad and other big smartphones screen */
 @media (min-width:600px) {
-    body {
-        font-size: 2rem;
+    html {
+        font-size: 16px;
     }
     navbar {
-        height: 8rem;
+        height: 4rem;
         display: flex;
         justify-content:space-between;
         align-items: center;
-        padding-inline: 5rem;
+        padding-inline: 2rem;
     }
 
     .img-container {
-        height: 60rem;
+        height: 30rem;
         width: 100%;
         padding-inline: 0rem;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
         overflow: hidden;
     }
 
@@ -150,38 +154,37 @@ hr {
     }
 
     .btn-join {
-        margin-top: 3rem;
-        padding: 1.4rem 3rem;
+        margin-top: 1.5rem;
+        padding: 0.8rem 1.5rem;
         border-radius: 20rem;
         font-weight: bold;
-        font-size: 2.5rem;
+        font-size: 1.5rem;
         background-color: #a688fa;
         color: black;
-        margin-bottom: 3rem;
+        margin-bottom: 1.5rem;
     }
 
     .activities-container {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 100%;
         margin-top: 3.5rem;
     }
     .activities {
-        margin: 4rem 0;
+        margin: 2rem 0;
         width: auto;
         display: flex;
         justify-content: center;
-        gap: 4rem;
+        gap: 2rem;
     }
 
     .activities > img {
-        width: 40rem;
-        height: 30rem;
+        width: min(50%,25rem);
+        height: 20rem;
         margin-bottom: 1rem;
     }
     .activities > div {
-        width: 50rem;
+        width: 40%;
     }
 
     .projects-container {
