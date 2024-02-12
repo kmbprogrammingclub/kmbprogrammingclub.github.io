@@ -199,3 +199,18 @@ hr {
          margin-bottom: 1.3rem;
      }
 }
+
+/*Editted by adam*/
+.top-nav a {
+    font-weight: bold;
+    padding: 0 20px;
+    text-align: center;
+    font-size: 0.9pc;
+}
+
+.top-nav {
+    margin: auto auto auto 50px;
+}
+
+.top-nav a:hover {
+}
