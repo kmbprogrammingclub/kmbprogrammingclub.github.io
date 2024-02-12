@@ -212,4 +212,7 @@ hr {
     margin: auto auto auto 50px;
 }
 
-
+.top-nav a:hover {
+    color: #517fc4;
+    cursor: pointer;
+}
