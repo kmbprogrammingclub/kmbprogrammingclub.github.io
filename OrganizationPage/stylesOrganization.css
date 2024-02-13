@@ -39,3 +39,16 @@ navbar {
     color: #517fc4;
     cursor: pointer;
 }
+
+.img-container {
+    height: 25rem;
+    width: 100%;
+    padding-inline: 0rem;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    position: absolute;
+}
+
+h1 {
+    text-align: center;
+}

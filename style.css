@@ -216,3 +216,9 @@ hr {
     color: #517fc4;
     cursor: pointer;
 }
+
+.navbar-container {
+    position: fixed;
+    width: 100%;
+    background-color: #292727;
+}
